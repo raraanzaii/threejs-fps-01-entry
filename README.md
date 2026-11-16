@@ -1,11 +1,11 @@
 # EMBERLINE
 
-[![make.fun bounty](https://make.fun/badge/threejs-fps-01.svg)](https://make.fun/bounty/threejs-fps-01)
-[![rank](https://make.fun/badge/threejs-fps-01/raraanzaii/threejs-fps-01-entry/rank.svg)](https://make.fun/bounty/threejs-fps-01)
-[![reward](https://make.fun/badge/threejs-fps-01/raraanzaii/threejs-fps-01-entry/reward.svg)](https://make.fun/bounty/threejs-fps-01)
+[![make.fun bounty](https://make.fun/badge/threejs-fps-02.svg)](https://make.fun/bounty/threejs-fps-02)
+[![rank](https://make.fun/badge/threejs-fps-02/raraanzaii/threejs-fps-02-entry/rank.svg)](https://make.fun/bounty/threejs-fps-02)
+[![reward](https://make.fun/badge/threejs-fps-02/raraanzaii/threejs-fps-02-entry/reward.svg)](https://make.fun/bounty/threejs-fps-02)
 
 An original round-based tactical FPS in three.js for make.fun's
-[threejs-fps-01](https://make.fun/bounty/threejs-fps-01) bounty, "Make the
+[threejs-fps-02](https://make.fun/bounty/threejs-fps-02) bounty, "Make the
 best three.js tactical FPS". You are an Ember raider in **Duskport Harbor**
 at dusk: plant the charge at Crane Yard or the Fuel Depot — or wipe the
 other team out — against bots that patrol, hold angles, and shoot back.
@@ -46,7 +46,7 @@ mkdir -p out && MAKEFUN_OUTPUT_DIR=out node main.ts
 
 Deterministic screenshots: `?shot=start|play|end&seed=1`.
 
-Bounty: https://make.fun/bounty/threejs-fps-01
+Bounty: https://make.fun/bounty/threejs-fps-02
 
 ## License
 
