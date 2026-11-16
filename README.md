@@ -1,8 +1,8 @@
 # EMBERLINE
 
 [![make.fun bounty](https://make.fun/badge/threejs-fps-02.svg)](https://make.fun/bounty/threejs-fps-02)
-[![rank](https://make.fun/badge/threejs-fps-02/raraanzaii/threejs-fps-02-entry/rank.svg)](https://make.fun/bounty/threejs-fps-02)
-[![reward](https://make.fun/badge/threejs-fps-02/raraanzaii/threejs-fps-02-entry/reward.svg)](https://make.fun/bounty/threejs-fps-02)
+[![rank](https://make.fun/badge/threejs-fps-02/raraanzaii/threejs-fps-01-entry/rank.svg)](https://make.fun/bounty/threejs-fps-02)
+[![reward](https://make.fun/badge/threejs-fps-02/raraanzaii/threejs-fps-01-entry/reward.svg)](https://make.fun/bounty/threejs-fps-02)
 
 An original round-based tactical FPS in three.js for make.fun's
 [threejs-fps-02](https://make.fun/bounty/threejs-fps-02) bounty, "Make the
