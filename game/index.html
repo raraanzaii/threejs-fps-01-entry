@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>EMBERLINE — Tactical FPS at Duskport</title>
+<link rel="stylesheet" href="./style.css">
+</head>
+<body>
+<div id="game"></div>
+
+<div id="hud" aria-hidden="true">
+  <div id="topbar">
+    <div id="teams">
+      <span class="team ember"><b id="score-ember">0</b> EMBER</span>
+      <span id="timer">1:40</span>
+      <span class="team ash">ASH <b id="score-ash">0</b></span>
+    </div>
+    <div id="alive"><span id="alive-ember">●●●●</span><span id="bomb-state"></span><span id="alive-ash">●●●●</span></div>
+  </div>
+  <div id="crosshair"><i></i><i></i><i></i><i></i><span id="dot"></span></div>
+  <div id="hitmarker"><i></i><i></i><i></i><i></i></div>
+  <div id="banner" hidden></div>
+  <div id="feed"></div>
+  <div id="hint"></div>
+  <div id="health"><span id="health-num">100</span><span class="label">HP</span><span id="money">$800</span></div>
+  <div id="ammo"><span id="ammo-mag">12</span><span id="ammo-reserve">/ 36</span><span id="weapon-name">P9 SIDEARM</span></div>
+  <div id="bombprompt" hidden>HOLD <b>E</b> — PLANT THE CHARGE</div>
+  <div id="plantbar" hidden><div id="plantfill"></div></div>
+</div>
+
+<div id="buy" class="overlay" hidden>
+  <section class="panel" role="dialog" aria-modal="true" aria-labelledby="buy-title">
+    <h1 id="buy-title">Buy — Round <span id="buy-round">1</span></h1>
+    <p class="sub">You have <b id="buy-money">$800</b> · Press <kbd>B</kbd> to close · Buy time ends when the round starts</p>
+    <div id="buy-list"></div>
+    <p class="keys-hint"><kbd>1</kbd> Rifle · <kbd>2</kbd> SMG · <kbd>3</kbd> Frag · <kbd>4</kbd> Smoke · <kbd>5</kbd> Armour</p>
+    <button id="deploy" type="button">Deploy — start round</button>
+  </section>
+</div>
+
+<div id="overlay" class="overlay">
+  <section class="panel" role="dialog" aria-modal="true" aria-labelledby="overlay-title">
+    <h1 id="overlay-title">EMBERLINE</h1>
+    <p id="overlay-copy">Duskport Harbor, 19:40. Four Ember raiders against four Ash guards.
+      Plant the charge at Crane Yard or the Fuel Depot — or wipe the other team out.
+      First to the most rounds takes the harbor.</p>
+    <button id="play" type="button">Click to play</button>
+    <ul class="keys">
+      <li><kbd>W</kbd><kbd>A</kbd><kbd>S</kbd><kbd>D</kbd> Move</li>
+      <li><kbd>Mouse</kbd> Look · <kbd>Click</kbd> Fire · <kbd>RMB</kbd> Aim</li>
+      <li><kbd>R</kbd> Reload · <kbd>Space</kbd> Jump · <kbd>Ctrl</kbd> Crouch</li>
+      <li><kbd>B</kbd> Buy menu · <kbd>E</kbd> Plant / defuse · <kbd>G</kbd> Grenade · <kbd>1</kbd><kbd>2</kbd> Weapons</li>
+    </ul>
+  </section>
+</div>
+
+<script type="importmap">
+{
+  "imports": {
+    "three": "./vendor/three/three.module.min.js"
+  }
+}
+</script>
+<script type="module" src="./js/main.js"></script>
+</body>
+</html>
